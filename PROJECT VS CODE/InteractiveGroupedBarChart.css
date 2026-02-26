@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f8fa;
+    text-align: center;
+    padding: 30px;
+  }
+  
+  h2 {
+    color: #003049;
+    margin-bottom: 20px;
+  }
+  
+  #chart {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .tooltip {
+    position: absolute;
+    background: white;
+    border: 1px solid #ccc;
+    padding: 6px;
+    font-size: 13px;
+    pointer-events: none;
+    opacity: 0;
+  }
+
+  /* Back Button Styling */
+.back-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #003b49;
+  color: #fff;
+  padding: 10px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #005f6b;
+  transform: translateY(-2px);
+}
+
+  
