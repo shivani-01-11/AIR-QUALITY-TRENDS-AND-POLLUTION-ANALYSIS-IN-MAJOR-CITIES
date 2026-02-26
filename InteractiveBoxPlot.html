@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>AQI Seasonal Boxplots</title>
+   <link rel="stylesheet" href="InteractiveBoxPlot.css" />
+   <script src="https://d3js.org/d3.v7.min.js"></script>
+ </head>
+ <body>
+   <!-- Back Button -->
+   <a href="WeatherPollutionTrends.html" class="back-button">← Back</a>
+ 
+   <h1>AQI Distribution Across Seasons</h1>
+ 
+   <div class="chart-container">
+     <h2>AQI vs Temperature</h2>
+     <svg id="tempPlot" width="900" height="400"></svg>
+   </div>
+ 
+   <div class="chart-container">
+     <h2>AQI vs Humidity</h2>
+     <svg id="humPlot" width="900" height="400"></svg>
+   </div>
+ 
+   <div class="chart-container">
+     <h2>AQI vs Wind Speed</h2>
+     <svg id="windPlot" width="900" height="400"></svg>
+   </div>
+ 
+   <!-- Tooltip for boxplot stats -->
+   <div id="tooltip" class="tooltip"></div>
+ 
+   <script src="InteractiveBoxPlot.js"></script>
+ </body>
+ </html>
+ 
